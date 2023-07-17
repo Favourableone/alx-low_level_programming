@@ -2,18 +2,13 @@
 /**
  * main - Entry point of the program
  *
- * Return: Always 0 (Success)
+ * Return: Always (Success)
  */
 int main(void)
 {
-    printf("Size of char: %zu bytes\n", sizeof(char));
-    printf("Size of int: %zu bytes\n", sizeof(int));
-    printf("Size of short: %zu bytes\n", sizeof(short));
-    printf("Size of long: %zu bytes\n", sizeof(long));
-    printf("Size of long long: %zu bytes\n", sizeof(long long));
-    printf("Size of float: %zu bytes\n", sizeof(float));
-    printf("Size of double: %zu bytes\n", sizeof(double));
-    printf("Size of long double: %zu bytes\n", sizeof(long double));
-
-    return 0;
+	printf("Size of char: %d byte (s)\n", sizeof(char));
+	printf("Size of an int: %d byte(s)\n", sizeof(int));
+	printf("Size of a long int: %d byte(s)\n", sizeof(long int));
+	printf("Size of float: %d byte(s)\n", sizeof(float));
+	return (0);
 }
