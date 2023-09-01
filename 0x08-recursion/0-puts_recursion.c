@@ -8,12 +8,12 @@
 void _puts_recursion(char *s)
 {
 /* check for end of string */
-if (*s == '\0') 
+if (*s == '\0')
 {
-/* print new line when end reached */
+/*print new line when end reached*/
 putchar('\n');
 return;
 }
 putchar(*s);
-_puts_recursion(s+1);
+_puts_recursion(s + 1);
 }
