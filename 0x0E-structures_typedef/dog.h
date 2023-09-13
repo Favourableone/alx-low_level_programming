@@ -2,7 +2,11 @@
 #define DOG_H
 
 /**
- * struct dog - Structure for a dog
+ * @breif Structure for a dog
+ * This structure contains members to represent a dog:
+ * name - Name of the dog
+ * age - Age of the dog in years
+ * owner - Owner of the dog
  */
 struct dog
 {
